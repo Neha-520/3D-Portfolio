@@ -64,7 +64,7 @@ const textureLoader = new THREE.TextureLoader();
 const spaceTexture = textureLoader.load('x.jfif');
 scene.background = spaceTexture;
 
-const myTexture = textureLoader.load('neha1.jpg');
+const myTexture = textureLoader.load('c.jpg');
 
 const me = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
