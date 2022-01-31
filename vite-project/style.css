@@ -73,3 +73,10 @@ blockquote p {
 .left {
   grid-column: 6 / 12;
 }
+
+@media (max-width: 600px) {
+  header {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+}
